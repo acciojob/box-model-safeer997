@@ -1,16 +1,39 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light Box</title>
+    <style>
+        .container {
+            width: 250px;
+            padding: 20px;
+            background-color: lightgray;
+            border: 2px solid black;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
 
+        .circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .green { background-color: green; }
+        .yellow { background-color: yellow; }
+        .red { background-color: red; }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <div class="container">
+        <div class="circle green"></div>
+        <div class="circle yellow"></div>
+        <div class="circle red"></div>
+    </div>
 
 </body>
-
 </html>
